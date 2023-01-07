@@ -14,7 +14,7 @@ public class Comparators {
      * @return true if a is equal to b, false otherwise.
      */
     public boolean isEqual(int a, int b){
-        return false;
+        return true;
     }
 
     /**
@@ -22,7 +22,7 @@ public class Comparators {
      * @param b the second number to be compared.
      * @return true if a is greater than b, false otherwise.
      */
-    public boolean greaterThan(int a, int b){
+    public boolean isEqualTest2 (int a, int b){
         return false;
     }
     /**
@@ -30,8 +30,8 @@ public class Comparators {
      * @param b the second number to be compared.
      * @return true if a is less than b, false otherwise.
      */
-    public boolean lessThan(int a, int b){
-        return false;
+    public boolean greaterThanTest1 (int a, int b){
+        return true;
     }
     /**
      * @param a the first number to be compared.
