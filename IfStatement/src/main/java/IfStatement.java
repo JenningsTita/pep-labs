@@ -14,9 +14,12 @@ public class IfStatement {
      * @param bool a true/false value that determines if x or y is to be returned.
      * @param x first number to be compared.
      * @param y second number to be compared.
-     * @param i TODO
+     * @return x 
+     * @return y 
      */
-    public  ifExample (boolean bool,int x, int y){
-        return ;
+    public  int ifExample (boolean bool, int x, int y){
+        return y ;
+        else 
+        return x  ;
     }
 }
