@@ -17,9 +17,10 @@ public class IfStatement {
      * @return x 
      * @return y 
      */
-    public  int ifExample (boolean bool, int x, int y){
-        return y ;
-        else 
-        return x  ;
+    public IfStatement(int x > int y) {
+    return y; } 
+
+    {
+       
     }
 }
