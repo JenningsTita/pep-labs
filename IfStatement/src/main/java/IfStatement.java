@@ -1,3 +1,4 @@
+import org.eclipse.jetty.http.HttpTester.Input;
 
 public class IfStatement {
     /**
@@ -15,12 +16,9 @@ public class IfStatement {
      * @param x first number to be compared.
      * @param y second number to be compared.
      * @return x 
-     * @return y 
+     * @return y
      */
-    public IfStatement(int x > int y) {
-    return y; } 
-
-    {
-       
-    }
+    public boolean ifExample(boolean bool, int x, int y) {
+    return x>y;
+}
 }
