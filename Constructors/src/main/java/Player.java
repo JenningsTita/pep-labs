@@ -30,6 +30,7 @@ public class Player {
      *
      * @param playerName the name of the player to be created.
      */
+    this.playerName = playerName 
     public Player(String playerName){
 
     }
