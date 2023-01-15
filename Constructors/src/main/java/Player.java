@@ -17,26 +17,9 @@ public class Player {
     public String playerName;
     public int level;
 
-    /**
-     * this.playerName should be set to playerName.
-     *
-     * Constructor should assign the object's playerName using this.playerName to refer to the playerName at the top of
-     * the class rather than the playerName in the parameter of this method (as they are both the exact same name).
-     *      this.playerName = playerName;
-     * The 'this' keyword specifies the left-hand playerName as the reference in 'this' class.
-     *
-     * We should also set the level value to 1 in this constructor as follows:
-     *      this.level = 1;
-     *
-     * @param playerName the name of the player to be created.
-     */
-    
-     this.playerName = playerName; 
-     public playerNAME
-
-    
     public Player(String playerName){
-
+        this.playerName = playerName; 
+        this.level = 1; 
     }
 
     /**
@@ -53,7 +36,8 @@ public class Player {
      * @param level the starting level of the player to be created.
      */
     public Player(String playerName, int level){
-
+this.playerName = playerName;
+this.level = level;
     }
 
 }
