@@ -14,8 +14,8 @@ public class ArrayBasics {
      * @param arr the array we're getting data from.
      * @return the length of arr.
      */
-    public int getLengthOfArray(int[] arr){
-        return 0;
+    public int getLengthOfArray(int[ab] arr){
+        return ab;
     }
 
 
