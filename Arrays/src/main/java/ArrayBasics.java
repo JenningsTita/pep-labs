@@ -12,11 +12,16 @@
 public class ArrayBasics {
     /**
      * @param arr the array we're getting data from.
+     * @param expected 
+     * @param actual 
+     * @param int ab 
      * @return the length of arr.
      */
-    public int getLengthOfArray(int[ab] arr){
-        return ab;
-    }
+    public int getLengthOfArray(int[] arr, int expected, int actual, int ab){
+    return (actual);
+        }
+    
+    
 
 
 
