@@ -1,3 +1,4 @@
+import java.lang.FdLibm.Pow;
 
 public class MathClass {
     /**
@@ -16,10 +17,11 @@ public class MathClass {
      * beginners. In the future, when you will be navigating complex topics, you will need to rely on official
      * documentation to learn how to use new tools, which is oftentimes rather dry.
      * Enjoy: https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html
-     *
-     * @return return a^b using the pow() method of the Math class.
      */
-    public double mathPow(double a, double b){
-        return a;
+    public void mathPow(double a, double b){
+       pow (a,b);
+   
+    return ;
+
     }
 }
