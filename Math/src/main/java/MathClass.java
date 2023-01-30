@@ -1,4 +1,3 @@
-import java.lang.FdLibm.Pow;
 
 public class MathClass {
     /**
