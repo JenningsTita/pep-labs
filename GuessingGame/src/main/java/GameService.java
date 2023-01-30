@@ -28,10 +28,10 @@ public class GameService {
      */
     public boolean checkGuess(double guessNumber) {
 
-        if (secretNumber)
+        if (secretNumber == guessNumber)
         return true; 
 
         else  
-        return false;
+      return false;
     }
 }
