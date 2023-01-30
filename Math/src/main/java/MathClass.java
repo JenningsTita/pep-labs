@@ -18,10 +18,9 @@ public class MathClass {
      * documentation to learn how to use new tools, which is oftentimes rather dry.
      * Enjoy: https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html
      */
-    public void mathPow(double a, double b){
-       pow (a,b);
-   
-    return ;
+    public double mathPow(double a, double b){
+
+        return Math.pow(a,b);    
 
     }
 }
