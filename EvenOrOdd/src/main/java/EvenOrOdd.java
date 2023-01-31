@@ -11,13 +11,15 @@ public class EvenOrOdd {
      * divided by 2 is naturally even.
      *
      * @param n a number.
-     * @return a String "Even" if n is even, and "Odd" of in is odd. The test cases are case-sensitive.
+     * @return 
      */
     public String decide(int n){
-      if (n % n==0 )
-      return "Even";
-    } else {
-      return "Odd";
+     if (n % 2==0 ){
+       return "Even";
 
+    } else {
+    return "Odd";  
     }
-}
+
+ 
+}}
